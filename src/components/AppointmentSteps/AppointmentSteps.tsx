@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 export default function AppointmentSteps() {
@@ -71,7 +72,7 @@ export default function AppointmentSteps() {
         </div>
 
         <div className="w-full flex flex-col items-center sm:items-start pt-2">
-          <div className="flex flex-col gap-1 text-sm sm:text-base pt-2">
+          <div className="flex flex-col gap-1 text-sm sm:text-base pt-2 pl-2">
             <p>1. QMP Registration</p>
             <p>2. Medical Evaluation/Consultation</p>
             <p>3. Payment</p>
@@ -98,7 +99,7 @@ export default function AppointmentSteps() {
             If you are a new patient, here are some helps to get you started...
           </p>
 
-          <div className="flex flex-col gap-1 text-sm sm:text-base pt-2 sm:pl-20">
+          <div className="flex flex-col gap-1 text-sm sm:text-base pt-2 sm:pl-19">
             {" "}
             <p>1. Meet with Pharmacist</p>
             <p>2. Set up your Portal Account</p>

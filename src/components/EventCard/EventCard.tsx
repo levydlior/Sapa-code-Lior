@@ -27,17 +27,17 @@ const EventCard: React.FC<EventCardProps> = ({
         {location}
       </div>
       <div className="flex flex-col justify-center text-[#1c4d1a] flex-grow text-center md:text-left">
-        <p className="font-bold text-lg">
+        <p className="font-extrabold text-lg">
           {weekday}, {month} {day}
           <sup className="text-sm relative top-[-4px]">{suffix}</sup> {year}
-        </p>{" "}
+        </p>
         <p>{time}</p>
         {note && <p>{note}</p>}
       </div>
       <div className="flex items-center justify-center md:justify-end min-w-[140px]">
         <button
           onClick={onBookClick}
-          className="bg-[#eac8a5] text-[#1c4d1a] font-semibold px-6 py-2 rounded-full cursor-pointer"
+          className="bg-[#eac8a5] text-[#1c4d1a] font-medium px-6 py-2 rounded-full cursor-pointer"
         >
           Book Time
         </button>

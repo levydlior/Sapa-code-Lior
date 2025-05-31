@@ -1,3 +1,5 @@
+"use client"
+
 import { pharmaciesArray } from "@/utils/dataArrays";
 
 
