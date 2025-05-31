@@ -1,7 +1,9 @@
 import AppointmentSteps from "@/components/AppointmentSteps/AppointmentSteps";
 import EventCard from "@/components/EventCard/EventCard";
 import Header from "@/components/Header/Header";
+import UtahMedicalCards from "@/components/UtahMedicalCards";
 import { eventsArray } from "@/utils/eventsArray";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,6 +31,16 @@ export default function Home() {
           </h2>
           <AppointmentSteps />
         </div>
+        <div className="my-20 px-10 flex flex-col items-end">
+          <Image
+            src="/assets/MockBannerAd@2x.png"
+            alt="Leaf Nation Banner Ad"
+            width={900}
+            height={100}
+          />
+          <p className="text-[#808080] pr-2">Ad</p>
+        </div>
+        <UtahMedicalCards />
       </div>
     </div>
   );

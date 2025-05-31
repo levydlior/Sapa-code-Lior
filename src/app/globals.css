@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-geist-sans: "Proxima Nova", sans-serif;
 }
 
 @theme inline {
@@ -30,4 +31,9 @@ body {
   src: url("/fonts/ProximaNova.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+
+.hyphenate {
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
