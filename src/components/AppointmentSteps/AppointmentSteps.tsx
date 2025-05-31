@@ -71,7 +71,7 @@ export default function AppointmentSteps() {
         </div>
 
         <div className="w-full flex flex-col items-center sm:items-start pt-2">
-          <div className="flex flex-col gap-1 text-sm sm:text-base">
+          <div className="flex flex-col gap-1 text-sm sm:text-base pt-2">
             <p>1. QMP Registration</p>
             <p>2. Medical Evaluation/Consultation</p>
             <p>3. Payment</p>
@@ -92,7 +92,7 @@ export default function AppointmentSteps() {
           </p>
         </div>
 
-        <div className="w-full flex flex-col items-center sm:items-start pt-2 space-y-2 sm:pl-0">
+        <div className="w-full flex flex-col items-center sm:items-start pt-4 space-y-2 sm:pl-0">
           <p>If this is a renewal, congratulations you are ready to shop...</p>
           <p>
             If you are a new patient, here are some helps to get you started...
@@ -103,9 +103,7 @@ export default function AppointmentSteps() {
             <p>1. Meet with Pharmacist</p>
             <p>2. Set up your Portal Account</p>
             <p>3. Start Shopping</p>
-            <p className="font-bold ">
-              **Don’t forget to take advantage of new patient deals**
-            </p>
+            <p>**Don’t forget to take advantage of new patient deals**</p>
           </div>
         </div>
       </div>

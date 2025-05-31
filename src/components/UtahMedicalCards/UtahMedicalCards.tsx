@@ -3,24 +3,23 @@ import Image from "next/image";
 
 function UtahMedicalCards() {
   return (
-    <div className="flex flex-col sm:flex-row w-full max-w-screen-xl mx-auto px-4 sm:px-40 py-10 gap-10">
+    <div className="flex flex-col sm:flex-row w-full max-w-screen-xl mx-auto px-4 sm:px-40 gap-10">
       <h2 className="text-3xl sm:hidden font-bold text-[#0b3d00] text-center mb-4">
         Utah Medical Cards
       </h2>
 
       <div className="flex justify-center  w-full sm:w-1/2">
-        <div className="relative w-[290px] h-[336px] sm:w-[400px] sm:h-[350px]">
+        <div className="relative w-[290px] h-[336px] sm:w-[400px] sm:h-[400px]">
           <Image
             src="/assets/Consultation@2x.png"
             alt="Consultation"
             layout="fill"
             objectFit="cover"
-            className="rounded-md"
           />
         </div>
       </div>
 
-      <div className="w-full sm:w-1/2 flex flex-col justify-start items-center sm:items-start text-center sm:text-left">
+      <div className="w-full sm:w-1/2 flex flex-col justify-start items-center sm:items-start text-center sm:text-left pt-3">
         <h2 className="hidden sm:block text-4xl font-bold text-[#0b3d00] mb-6">
           Utah Medical Cards
         </h2>
